@@ -181,7 +181,7 @@
         "quantity": "25 mg tablets, 30 tablets per pack",
         "type": "Antihistamines",
         "price": 5,
-        "img": "Images/Pharmacy/diphenhydra.webp"
+        "img": "Images/Pharmacy/Diphenhydra.webp"
     },
     {
         "id": "desloratadine",
@@ -237,5 +237,5 @@
         "quantity": "0.1 mg tablets, 30 tablets per pack",
         "type": "Antihypertensives",
         "price": 7,
-        "img": "Images/Pharmacy/clonidine.webp"}
+        "img": "Images/Pharmacy/Clonidine.webp"}
 ]
