@@ -1,0 +1,211 @@
+main *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    margin-left: 45px;
+}
+
+
+.base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+}
+
+#backgroundimage h1{
+
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: rgb(75, 75, 75);
+    margin-left: 0;
+    margin-top: 15px;
+    padding: 10px 40px 10px 40px;
+    line-height: 72px;
+    border-radius: 3px;
+}
+
+
+
+.contentbox{
+    display: flex;
+
+    gap: 10px 10px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card{
+    height: 220px;
+    width: 300px;
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #dbd9d9;
+    margin:10px 4px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.2);
+    flex-wrap: wrap;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+}
+
+.card:hover i,
+.card:hover h2,
+.card:hover p {
+    display: none;
+}
+
+
+
+#c1:hover{
+    background-image:url(../Images/services/emergency\ services.webp);
+    background-color: rgba(82, 82, 82, 0.24);
+    opacity: 0.5;
+    transition:0.2s;
+}
+
+#c2:hover{
+    background-image:url(../Images/services/cardiology.webp);
+    background-color: rgba(82, 82, 82, 0.24);
+    opacity: 0.5;
+    transition:0.2s;
+}
+
+#c3:hover{
+    background-image:url(../Images/services/pediatrics.webp);
+    background-color: rgba(82, 82, 82, 0.24);
+    opacity: 0.5;
+    transition:0.2s;
+}
+
+#c4:hover{
+    background-image:url(../Images/services/maternityservices.webp);
+    background-color: rgba(82, 82, 82, 0.24);
+    opacity: 0.5;
+    transition:0.2s;
+}
+
+#c5:hover{
+    background-image:url(../Images/services/surgical\ services.webp);
+    background-color: rgba(82, 82, 82, 0.24);
+    opacity: 0.5;
+    transition:0.2s;
+}
+
+#c6:hover{
+    background-image:url(../Images/services/oncology.webp);
+    background-color: rgba(82, 82, 82, 0.24);
+    opacity: 0.5;
+    transition:0.2s;
+}
+
+#c7:hover{
+    background-image:url(../Images/services/orthopedics.webp);
+    background-color: rgba(82, 82, 82, 0.24);
+    opacity: 0.5;
+    transition:0.2s;
+}
+
+#c8:hover{
+    background-image:url(../Images/services/radiology.webp);
+    background-color: rgba(82, 82, 82, 0.24);
+    opacity: 0.5;
+    transition:0.2s;
+}
+
+#c9:hover{
+    background-image:url(../Images/services/physical\ therapy.webp);
+    background-color: rgba(82, 82, 82, 0.24);
+    opacity: 0.5;
+    transition:0.2s;
+}
+
+#c10:hover{
+    background-image:url(../Images/services/neurology.webp);
+    background-color: rgba(82, 82, 82, 0.24);
+    opacity: 0.5;
+    transition:0.2s;
+}
+
+#c11:hover{
+    background-image:url(../Images/services/dermatology.webp);
+    background-color: rgba(82, 82, 82, 0.24);
+    opacity: 0.5;
+    transition:0.2s;
+}
+
+#c12:hover{
+    background-image:url(../Images/services/mental\ health\ services.webp);
+    background-color: rgba(82, 82, 82, 0.24);
+    opacity: 0.5;
+    transition:0.2s;
+}
+
+
+
+.card h2{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+
+.card p{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+
+.card i{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    color: rgb(95, 97, 97);
+}
+
+
+
+.one{
+    background:fixed;
+}
+
+#backgroundimage{
+    background-image:url(../Images/banner.webp);
+    height: 220px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.maintxt{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+@media screen and (max-width:600px){
+    h1{
+        margin-left: 7px;
+    }
+
+    .card{
+        margin-left: 20px;
+    }
+    
+    .contentbox{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

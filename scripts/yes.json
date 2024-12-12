@@ -1,0 +1,241 @@
+[
+    {
+        "id": "Paracetamol",
+        "name": "Paracetamol",
+        "quantity": "500 mg tablets, 20 tablets per pack",
+        "type": "Analgesics",
+        "price": 3,
+        "img": "Images/Pharmacy/Paracetamol.webp"
+    },
+    {
+        "id": "Ibuprofen",
+        "name": "Ibuprofen",
+        "quantity": "200 mg tablets, 24 tablets per pack",
+        "type": "Analgesics",
+        "price": 4,
+        "img": "Images/Pharmacy/Ibuprofen.webp"
+    },
+    {
+        "id": "Aspirin",
+        "name": "Aspirin",
+        "quantity": "300 mg tablets, 20 tablets per pack",
+        "type": "Analgesics",
+        "price": 3,
+        "img": "Images/Pharmacy/Aspirin.webp"
+    },
+    {
+        "id": "Diclofenac",
+        "name": "Diclofenac",
+        "quantity": "50 mg tablets, 10 tablets per pack",
+        "type": "Analgesics",
+        "price": 2,
+        "img": "Images/Pharmacy/Diclofenac.webp"
+    },
+    {
+        "id": "Naproxen",
+        "name": "Naproxen",
+        "quantity": "250 mg tablets, 15 tablets per pack",
+        "type": "Analgesics",
+        "price": 4,
+        "img": "Images/Pharmacy/Naproxen.webp"
+    },
+    {
+        "id": "Tramadol",
+        "name": "Tramadol",
+        "quantity": "100 mg capsules, 10 capsules per pack",
+        "type": "Analgesics",
+        "price": 5,
+        "img": "Images/Pharmacy/Tramadol.webp"
+    },
+    {
+        "id": "Amoxicillin",
+        "name": "Amoxicillin",
+        "quantity": "500 mg capsules, 15 capsules per pack",
+        "type": "Antibiotics",
+        "price": 5,
+        "img": "Images/Pharmacy/Amoxicillin.webp"
+    },
+    {
+        "id": "Azithromycin",
+        "name": "Azithromycin",
+        "quantity": "250 mg tablets, 6 tablets per pack",
+        "type": "Antibiotics",
+        "price": 6,
+        "img": "Images/Pharmacy/Azithromycin.webp"
+    },
+    {
+        "id": "Ciprofloxacin",
+        "name": "Ciprofloxacin",
+        "quantity": "500 mg tablets, 10 tablets per pack",
+        "type": "Antibiotics",
+        "price": 5,
+        "img": "Images/Pharmacy/Ciprofloxacin.webp"
+    },
+    {
+        "id": "Metronidazole",
+        "name": "Metronidazole",
+        "quantity": "400 mg tablets, 20 tablets per pack",
+        "type": "Antibiotics",
+        "price": 4,
+        "img": "Images/Pharmacy/Metronidazole.webp"
+    },
+    {
+        "id": "Doxycycline",
+        "name": "Doxycycline",
+        "quantity": "100 mg capsules, 10 capsules per pack",
+        "type": "Antibiotics",
+        "price": 5,
+        "img": "Images/Pharmacy/Doxycycline.webp"
+    },
+    {
+        "id": "Cefuroxime",
+        "name": "Cefuroxime",
+        "quantity": "250 mg tablets, 14 tablets per pack",
+        "type": "Antibiotics",
+        "price": 6,
+        "img": "Images/Pharmacy/Cefuroxime.webp"
+    },
+    {
+        "id": "Sertraline",
+        "name": "Sertraline",
+        "quantity": "50 mg tablets, 10 tablets per pack",
+        "type": "Antidepressants",
+        "price": 5,
+        "img": "Images/Pharmacy/Sertraline.webp"
+    },
+    {
+        "id": "Fluoxetine",
+        "name": "Fluoxetine",
+        "quantity": "20 mg capsules, 14 capsules per pack",
+        "type": "Antidepressants",
+        "price": 6,
+        "img": "Images/Pharmacy/Fluoxetine.webp"
+    },
+    {
+        "id": "Citalopram",
+        "name": "Citalopram",
+        "quantity": "10 mg tablets, 28 tablets per pack",
+        "type": "Antidepressants",
+        "price": 7,
+        "img": "Images/Pharmacy/Citalopram.webp"
+    },
+    {
+        "id": "Amitriptyline",
+        "name": "Amitriptyline",
+        "quantity": "25 mg tablets, 28 tablets per pack",
+        "type": "Antidepressants",
+        "price": 7,
+        "img": "Images/Pharmacy/Amitriptyline.webp"
+    },
+    {
+        "id": "Escitalopram",
+        "name": "Escitalopram",
+        "quantity": "10 mg tablets, 28 tablets per pack",
+        "type": "Antidepressants",
+        "price": 7,
+        "img": "Images/Pharmacy/Escitalopram.webp"
+    },
+    {
+        "id": "Venlafaxine",
+        "name": "Venlafaxine",
+        "quantity": "37.5 mg tablets, 14 tablets per pack",
+        "type": "Antidepressants",
+        "price": 6,
+        "img": "Images/Pharmacy/Venlafaxine.webp"
+    },
+    {
+        "id": "Loratadine",
+        "name": "Loratadine",
+        "quantity": "10 mg tablets, 10 tablets per pack",
+        "type": "Antihistamines",
+        "price": 4,
+        "img": "Images/Pharmacy/Loratadine.webp"
+    },
+    {
+        "id": "Cetirizine",
+        "name": "Cetirizine",
+        "quantity": "10 mg tablets, 10 tablets per pack",
+        "type": "Antihistamines",
+        "price": 4,
+        "img": "Images/Pharmacy/Cetirizine.webp"
+    },
+    {
+        "id": "Chlorphine",
+        "name": "Chlorphine",
+        "quantity": "4 mg tablets, 20 tablets per pack",
+        "type": "Antihistamines",
+        "price": 3,
+        "img": "Images/Pharmacy/Chlorphine.webp"
+    },
+    {
+        "id": "Fexofenadine",
+        "name": "Fexofenadine",
+        "quantity": "120 mg tablets, 10 tablets per pack",
+        "type": "Antihistamines",
+        "price": 5,
+        "img": "Images/Pharmacy/Fexofenadine.webp"
+    },
+    {
+        "id": "diphenhydra",
+        "name": "diphenhydra",
+        "quantity": "25 mg tablets, 30 tablets per pack",
+        "type": "Antihistamines",
+        "price": 5,
+        "img": "Images/Pharmacy/diphenhydra.webp"
+    },
+    {
+        "id": "desloratadine",
+        "name": "Desloratadine",
+        "quantity": "5 mg tablets, 30 tablets per pack",
+        "type": "Antihistamines",
+        "price": 8,
+        "img": "Images/Pharmacy/Desloratadine.webp"
+    },
+    {
+        "id": "Amlodipine",
+        "name": "Amlodipine",
+        "quantity": "5 mg tablets, 30 tablets per pack",
+        "type": "Antihypertensives",
+        "price": 7,
+        "img": "Images/Pharmacy/Amlodipine.webp"
+    },
+    {
+        "id": "Lisinopril",
+        "name": "Lisinopril",
+        "quantity": "10 mg tablets, 28 tablets per pack",
+        "type": "Antihypertensives",
+        "price": 7,
+        "img": "Images/Pharmacy/Lisinopril.webp"
+    },
+    {
+        "id": "Losartan",
+        "name": "Losartan",
+        "quantity": "50 mg tablets, 30 tablets per pack",
+        "type": "Antihypertensives",
+        "price": 8,
+        "img": "Images/Pharmacy/Losartan.webp"
+    },
+    {
+        "id": "Metoprolol",
+        "name": "Metoprolol",
+        "quantity": "50 mg tablets, 14 tablets per pack",
+        "type": "Antihypertensives",
+        "price": 6,
+        "img": "Images/Pharmacy/Metoprolol.webp"
+    },
+    {
+        "id": "Valsartan",
+        "name": "Valsartan",
+        "quantity": "80 mg tablets, 28 tablets per pack",
+        "type": "Antihypertensives",
+        "price": 10,
+        "img": "Images/Pharmacy/Valsartan.webp"
+    },
+    {
+        "id": "clonidine",
+        "name": "Clonidine",
+        "quantity": "0.1 mg tablets, 30 tablets per pack",
+        "type": "Antihypertensives",
+        "price": 7,
+        "img": "Images/Pharmacy/clonidine.webp"}
+]

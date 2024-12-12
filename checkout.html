@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="bout Milan Care, patient-centered healthcare, Kandy hospital, Jaffna hospital, healthcare mission, medical team, quality healthcare">
+    <meta name="description" content="Learn about Milan Care’s mission to provide exceptional healthcare with a patient-centered approach. Our hospitals in Kandy and Jaffna are dedicated to improving lives with quality medical services">
+    <link rel="stylesheet" href="styles/checkout.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Order Summary</h1>
+        <div id="orderSummary"></div>
+        <div id="summaryContainer"></div>
+        <div class="form-group">
+            <label for="customerName">Full Name</label>
+            <input type="text" id="customerName" name="customerName" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="customerAddress">Address</label>
+            <input type="text" id="customerAddress" name="customerAddress" placeholder="Enter your address" required>
+        </div>
+        <div class="form-group">
+            <label for="customerPhone">Phone Number</label>
+            <input type="tel" id="customerPhone" name="customerPhone" placeholder="Enter your phone number" required>
+        </div>
+        <div class="form-group">
+            <label>Payment Method</label>
+            <label>
+                <input type="radio" name="paymentMethod" value="card" required> Card
+            </label>
+            <label>
+                <input type="radio" name="paymentMethod" value="cash" required> Cash on Delivery
+            </label>
+        </div>
+        <div class="card-details">
+            <div class="form-group">
+                <label for="cardNumber">Card Number</label>
+                <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter card number" required>
+            </div>
+            <div class="form-group">
+                <label for="expiryDate">Expiry Date</label>
+                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required>
+            </div>
+        </div>
+        <button id="checkout">Confirm Order</button>
+        <button onclick="window.location.href='cartpage.html'">Go Back to Cart</button>
+    </div>
+    <script src="scripts/checkout.js"></script>
+</body>
+</html>

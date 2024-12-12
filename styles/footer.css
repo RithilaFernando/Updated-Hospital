@@ -1,0 +1,93 @@
+footer * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+
+footer {
+    position: relative;
+    padding: 50px 20px; 
+    background: #323232;
+    color: white;
+    overflow: hidden;
+
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1321px; 
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px; 
+}
+
+.sci {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    width: 50px;
+    height: 36px;
+}
+
+.footer-contact {
+    margin: 0;
+}
+
+.footer-h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list i {
+    margin-right: 8px;
+    font-size: 25px;
+}
+
+.addresses li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+footer i{
+    color: white;
+    font-size: 25px;
+}
+
+@media (min-width: 600px) {
+    .footer-container {
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    .footer-contact {
+        margin-left: 0;
+    }
+
+    .footer-copyright {
+        grid-column: span 2; 
+        margin-top: 40px;
+    }
+}
